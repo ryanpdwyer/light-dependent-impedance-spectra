@@ -4,9 +4,9 @@ This repository contains the Python code to reproduce the numerical analysis fro
 
 ## Installation
 
-    conda create -n light-dependent-impedance-spectra python=3 numpy scipy matplotlib pandas altair
+    conda create -n light-dependent-impedance-spectra python=3 numpy scipy matplotlib pandas
     conda activate light-dependent-impedance-spectra
-    pip install ray json_tricks tqdm
+    pip install ray json_tricks tqdm altair altair_saver
 
 
 ## Notes
