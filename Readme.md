@@ -1,5 +1,7 @@
 # Light-dependent impedance spectra theory and numerical simulations
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3817473.svg)](https://doi.org/10.5281/zenodo.3817473)
+
 This repository contains the Python code to reproduce the numerical analysis from the paper "Light-dependent impedance spectra and transient photoconductivity in a Ruddlesden–Popper 2D lead-halide perovskite revealed by electrical scanned probe microscopy and accompanying theory," by Tirmzi, et al.
 
 ## Installation
