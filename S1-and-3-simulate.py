@@ -61,7 +61,7 @@ while len(remaining_ids):
 
 
 
-dump_sims(sim_phase_shifts, "S1", "results")
+dump_sims(sim_phase_shifts, "S13", "results")
 
 print("\n")
 print(time.time() - start)

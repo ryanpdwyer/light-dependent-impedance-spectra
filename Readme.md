@@ -9,6 +9,21 @@ This repository contains the Python code to reproduce the numerical analysis fro
     pip install ray json_tricks tqdm altair altair_saver
 
 
-## Notes
+## Code
 
-- Scipy added a warning (version 1.4.1) when a weighted integral is used and points are specified as well (see https://github.com/scipy/scipy/pull/10912); the points are ignored. This does not affect the analysis, but does generate a large number of warning messages!
+The file `tdpkefm.py` contains the classes used for numerically simulating the experiments and calculating the frequency shift analytically.
+
+
+## Reproducing the simulations
+
+The simulations are contained in the python files
+
+    S1-and-3-simulate.py
+    S2-simulate.py
+    S4-simulate.py
+
+To run the simulations, use `python S1-and-3-simulate.py` using an environment with the dependencies listed above, or on Mac/Linux, use the `run-simulations.sh` script. On a 2019 16" MacBook Pro, all simulations could be completed in less than an hour.
+
+## Plotting the simulations
+
+The Jupyter notebooks `S1-plot.ipynb, S2-plot.ipynb, S3-plot.ipynb, and S4-plot.ipynb` generate the plots from intermediate data files saved in the results folder (plotting dependencies are matplotlib, altair, and altair_saver for saving Fig. S3).
