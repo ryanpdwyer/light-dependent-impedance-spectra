@@ -30,13 +30,13 @@ sim_phase_shifts = []
 
 
 # Setup the simulations
-Rdarks = np.array([5e6])
-Rlights = np.array([2e4])
-tau_lights = np.array([20])
+Rdarks = np.array([1e7])
+Rlights = np.array([1e4])
+tau_lights = np.array([10])
 Ndec_resps = [1]
 V0_fracs = np.array([0.7, 0.8, 0.9, 1.0]) # It doesn't make physical sense for V0_frac to be less than Cs/(Cs + Ct)...
 phases = np.array([0 ])
-Vs = [Voltage(10.0, x) for x in [384.0]]
+Vs = [Voltage(10.0, x) for x in [256.0]]
 Czs = -np.array([3.5e-05*0.8])
 Css = np.array([0.5e-4])
 A0s = np.array([0.050])
