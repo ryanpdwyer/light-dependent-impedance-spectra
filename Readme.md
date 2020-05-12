@@ -22,10 +22,10 @@ The simulations are contained in the python files
 
     S1-and-3-simulate.py
     S2-simulate.py
-    S4-simulate.py
+    5-simulate.py
 
 To run the simulations, use `python S1-and-3-simulate.py` using an environment with the dependencies listed above, or on Mac/Linux, use the `run-simulations.sh` script. On a 2019 16" MacBook Pro, all simulations could be completed in less than an hour.
 
 ## Plotting the simulations
 
-The Jupyter notebooks `S1-plot.ipynb, S2-plot.ipynb, S3-plot.ipynb, and S4-plot.ipynb` generate the plots from intermediate data files saved in the results folder (plotting dependencies are matplotlib, altair, and altair_saver for saving Fig. S3).
+The Jupyter notebooks `5-plot.ipynb, S1-plot.ipynb, S2-plot.ipynb, and S3-plot.ipynb` generate the plots from intermediate data files saved in the results folder (plotting dependencies are matplotlib for Fig. 5, S1, and S2; and altair and altair_saver for Fig. S3).
